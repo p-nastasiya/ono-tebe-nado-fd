@@ -291,7 +291,7 @@
 .footer {
 	padding: 13px;
 	display: grid;
-	grid-template-columns: repeat(3, 1fr);	
+	grid-template-columns: repeat(3, 1fr);
 	align-content: center;
 	width: 1100px;
 	height: 180px;
@@ -321,7 +321,7 @@
 	list-style: none;
 }
 
-.footer__menu-link {}
+/* .footer__menu-link {} */
 
 .footer__social-list {
 	width: 240px;
@@ -334,7 +334,7 @@
 	column-gap: 48px;
 }
 
-.footer__social-link {}
+/* .footer__social-link {} */
 
 .footer__social-icon {
 	width: 48px;
