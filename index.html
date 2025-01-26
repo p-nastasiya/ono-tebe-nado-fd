@@ -45,84 +45,109 @@
 				<span class="accent-span text-right">НАДО</span>
 			</h1>
 			<div class="cover__description">
-				<p>АУКЦИОН ВЕЩЕЙ, В КОТОРЫЕ НИКТО НЕ ВЕРИЛ</p>
-				<button>СДЕЛАТЬ СТАВКУ</button>
+				<p class="cover__description-text">АУКЦИОН ВЕЩЕЙ, В КОТОРЫЕ НИКТО НЕ ВЕРИЛ</p>
+				<button class="bet-button">СДЕЛАТЬ СТАВКУ</button>
 			</div>
 
 		</section>
 		<section class="lots">
-			<h2 class="lots__title">лоты</h2>
-			<ul class="lots__list">
-				<li class="lots__item">
-					<a href="images/card-lot-01.jpg">
-						<article class="card-link frame1">
+			<h2 class="lots__heading">лоты</h2>
+			<ul class="lots__card-list">
+				<li class="lots__card-list-item">
+					<a class="card-link" src="images/card-lot-01.jpg">
+						<article class="card card_type_frame1">
 							<div class="overlay"></div>
-							<h3 class="card-title text-top">Фильм режесера, который бросил киношколу
+							<h3 class="card-title">Фильм режесера, который бросил киношколу
 							</h3>
-							<p class="card-text text-bottom">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если
+							<p class="card-text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если
 								бы вы не
 								знали, что режиссёр — Пол Томас Андерсон?</p>
 						</article>
 					</a>
 				</li>
-				<li class="lots__item">
-					<a href="images/card-lot-02.jpg">
-						<article class="card-link frame2">
+				<li class="lots__card-list-item">
+					<a class="card-link" src="images/card-lot-02.jpg">
+						<article class="card card_type_frame2">
 							<div class="overlay"></div>
 							<h3 class="card-title">Книга, где описан один скучный день из жизни рекламного агента</h3>
 							<p class="card-text">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на
 								древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы,
 								начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили
-							на «Улисса» Джеймса Джойса?</p>
-
+								на «Улисса» Джеймса Джойса?</p>
 						</article>
 					</a>
 				</li>
-				<li class="lots__item">
-					<a href="images/card-lot-03.jpg">
-						<article class="card-link frame3">
+				<li class="lots__card-list-item">
+					<a class="card-link" src="images/card-lot-03.jpg">
+						<article class="card card_type_frame3">
 							<div class="overlay"></div>
 							<h3 class="card-title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
 							<p class="card-text">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на
 								инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не
-							знали, что это — одна из революционных работ Кандинского?</p>
-
+								знали, что это — одна из революционных работ Кандинского?
+							</p>
 						</article>
 					</a>
 				</li>
-
 			</ul>
+			<a class="lots__look-more-link" href="#0">посмотреть больше</a>
 		</section>
 		<section class="about">
-			<div class="about__us">
-				<container class="about__us-logo">
+			<container class="about__logo">
+				<div class="about__logo_background">
 					<a>
-						<img class="about__us-logo" src="images/logo-white.svg" alt="Логотип проекта">
+						<img class="about__logo-images" src="images/logo-white.svg" alt="Логотип проекта">
 					</a>
-				</container>
-				<container>
-					<h2>ОБ АУКЦИОНЕ</h2>
-					<p>Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не
-						должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина, которую
-						может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?
-						<br>
-						Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные критиками.
-						Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря на критику, кажущуюся простоту
-						или сложность, сейчас без этих лотов невозможно представить современную культуру. Когда в эти вещи не верил
-						никто, продолжали верить их создатели. И сейчас эти лоты стали культовыми.
-					</p>
-
-				</container>
+				</div>
+			</container>
+			<container class="about__auction">
+				<h2 class="about__title">ОБ АУКЦИОНЕ</h2>
+				<p class="about__text">Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши
+					лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или
+					картина, которую
+					может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?
+					<br class="about__space">
+					Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные критиками.
+					Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря на критику, кажущуюся простоту
+					или сложность, сейчас без этих лотов невозможно представить современную культуру. Когда в эти вещи не верил
+					никто, продолжали верить их создатели. И сейчас эти лоты стали культовыми.
+				</p>
+			</container>
 			</div>
-
-
-
 		</section>
 	</main>
-	<footer>
-
+	<footer class="footer">
+		<address class="footer__contacts">
+			<a href="tel:+9 999 555 5555">+9 999 555 5555</a>
+			<br>
+			<a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+			<br>
+			<p>наб. Принсенграхт 263- 265, Амстердам</p>
+		</address>
+		<nav class="footer__menu">
+			<ul class="footer__menu-list">
+				<a class="footer__menu-link">главная</a>
+				<li>
+					<a class="footer__menu-link" href="#0">посмотреть лоты</a>
+				</li>
+				<li>
+					<a class="footer__menu-link" href="#0">об аукционе</a>
+				</li>
+			</ul>
+		</nav>
+		<div class="footer__social-list">
+			<ul class="footer__social-list-item">
+				<a class="footer__social-link" href="#0">
+					<img class="footer__social-icon" src="images/yt.svg"></img>
+				</a>
+				<a class="footer__social-link" href="#0">
+					<img class="footer__social-icon" src="images/vk.svg"></img>
+				</a>
+				<a class="footer__social-link" href="#0">
+					<img class="footer__social-icon" src="images/pinterest.svg"></img>
+				</a>
+			</ul>
+		</div>
 	</footer>
-
 </body>
-
 </html>
