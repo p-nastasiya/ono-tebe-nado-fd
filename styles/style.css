@@ -289,9 +289,6 @@ button {
 	text-align: left;
 	text-underline-position: from-font;
 	text-decoration-skip-ink: none;
-}
-
-.about__text {
 	padding: 0 0 24px 0;
 }
 
