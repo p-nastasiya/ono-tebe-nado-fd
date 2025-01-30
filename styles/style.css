@@ -140,7 +140,7 @@ button {
 	color: #fff;
 	background-color: transparent;
 	cursor: pointer;
-	border: 1px currentColor #fff;
+	border: 1px solid;
 	outline: none;
 	padding: 12px 32px 11px 31px;
 	font-weight: 500;
