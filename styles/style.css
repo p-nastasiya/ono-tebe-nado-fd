@@ -1,340 +1,336 @@
 .header {
-  display: grid;
-  grid-template-columns: 1fr min-content 1fr;
-  align-items: center;
-  align-content: center;
-  width: 1100px;
-  min-height: 293px;
-  font-size: 18px;
+	display: grid;
+	grid-template-columns: 1fr min-content 1fr;
+	align-items: center;
+	align-content: center;
+	width: 1100px;
+	font-size: 18px;
+	padding: 94px 50px 94px 50px;
 }
 
 .header__menu {
-  font-family: "Raleway", "sans-serif";
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 21.13px;
-  text-decoration-skip-ink: none;
-  margin-left: 50px;
-  width: 391.48px;
+	font-family: "Raleway", "sans-serif";
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 21.13px;
+	text-decoration-skip-ink: none;
+	width: 391.48px;
 }
 
 .header__menu-list {
-  list-style-type: circle;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  gap: 31.5px;
+	list-style-type: circle;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	gap: 31.5px;
 }
 
 .header__menu-list li:first-child {
-  list-style: none;
+	list-style: none;
+	padding-top: 1px;
 }
 
 .header__menu-link {
-  font-family: "Raleway", "sans-serif";
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 21.13px;
-  text-align: left;
-  text-underline-position: under;
-  text-decoration-skip-ink: none;
+	font-family: "Raleway", "sans-serif";
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 21.13px;
+	text-align: left;
+	text-underline-position: under;
+	text-decoration-skip-ink: none;
 }
 
 .header__logo {
-  display: block;
-  width: 148px;
-  height: 105px;
-  text-align: center;
+	display: block;
+	width: 148px;
+	height: 105px;
+	text-align: center;
 }
 
 .header__logo-image {
-  width: 90%;
-  background-position: top center;
+	width: 90%;
+	background-position: top center;
 }
 
 .header__address {
-  justify-self: end;
-  width: 240px;
-  line-height: 24.3px;
-  font-style: normal;
+	justify-self: end;
+	width: 240px;
+	line-height: 24.3px;
+	font-style: normal;
 }
 
 .cover {
-  position: relative;
-  background-image: url(../images/cover.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  width: 1100px;
-  min-height: 757px;
-  z-index: 0;
+	position: relative;
+	background-image: url(../images/cover.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 1100px;
+	min-height: 757px;
+	z-index: 0;
 }
 
 .overlay {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background-color: #000;
-  z-index: 1;
-  opacity: 60%;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: #000;
+	z-index: 1;
+	opacity: 60%;
 }
 
 .cover__title {
-  display: block;
-  position: inherit;
-  color: #fff;
-  width: 1000px;
-  min-height: 385px;
-  margin: 0px 50px 106px;
-  padding-top: 165px;
-  z-index: 2;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	position: inherit;
+	color: #fff;
+	width: 1000px;
+	margin: 0px 50px 106px;
+	padding-top: 165px;
+	z-index: 2;
 }
 
 .accent-span {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  font-size: 100px;
-  font-weight: 700;
-  line-height: 115px;
-  letter-spacing: 0.3em;
-  text-transform: uppercase;
+	font-size: 100px;
+	font-weight: 700;
+	line-height: 115px;
+	letter-spacing: 0.3em;
+	text-transform: uppercase;
 }
 
 .text-center {
-  text-align: center;
-  width: 339px;
-  padding-left: 330.5px;
-  padding-top: 20px;
+	text-align: center;
+	width: 100%;
+	margin: 20px 0 20px;
 }
 
 .text-right {
-  text-align: right;
-  align-self: flex-end;
-  width: 387px;
-  padding-left: 613px;
-  padding-top: 20px;
+	text-align: right;
+	width: 100%;
+}
+
+.last-letter {
+	letter-spacing: 0;
 }
 
 .cover__description {
-  display: flex;
-  position: inherit;
-  align-items: center;
-  justify-content: space-around;
-  color: #fff;
-  width: 100%;
-  z-index: 2;
-  text-transform: uppercase;
+	display: flex;
+	position: inherit;
+	align-items: center;
+	justify-content: space-around;
+	color: #fff;
+	width: 100%;
+	z-index: 2;
+	text-transform: uppercase;
 }
 
 .cover__description-text {
-  word-spacing: 18px;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 28px;
-  width: 637px;
+	word-spacing: 18px;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 28px;
+	width: 637px;
 }
 
 button {
-  height: 51px;
-  color: #fff;
-  background-color: transparent;
-  cursor: pointer;
-  border: 1px currentColor #fff;
-  outline: none;
-  padding: 12px 32px 11px 31px;
-  font-weight: 500;
-  font-size: 22px;
-  text-transform: uppercase;
+	height: 51px;
+	color: #fff;
+	background-color: transparent;
+	cursor: pointer;
+	border: 1px currentColor #fff;
+	outline: none;
+	padding: 12px 32px 11px 31px;
+	font-weight: 500;
+	font-size: 22px;
+	text-transform: uppercase;
 }
 
 .lots {
-  width: 1052px;
-  margin: 180px 24px 120px 24px;
-  position: relative;
+	width: 1052px;
+	margin: 180px 24px 120px 24px;
+	position: relative;
 }
 
 .lots__heading {
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 46.96px;
-  padding: 0 173px 27px 40px;
-  text-transform: uppercase;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 46.96px;
+	padding: 0 173px 27px 40px;
+	text-transform: uppercase;
 }
 
 .lots__card-list {
-  display: flex;
-  justify-content: space-between;
-  color: #fff;
-  flex-direction: row;
-  align-content: flex-start;
-  flex-wrap: wrap;
-  margin-bottom: 30px;
+	display: flex;
+	justify-content: space-between;
+	color: #fff;
+	flex-direction: row;
+	align-content: flex-start;
+	flex-wrap: wrap;
+	margin-bottom: 30px;
 }
 
 .lots__card-list-item {
-  width: 334px;
-  list-style: none;
-  z-index: 0;
+	width: 334px;
+	list-style: none;
+	z-index: 0;
 }
 
 .card {
-  position: relative;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  background-size: cover;
+	position: relative;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-size: cover;
+	background-position: center;
 }
 
 .card-link {
-  text-decoration: none;
-  background-position: center;
+	text-decoration: none;
 }
 
 .card-title {
-  position: inherit;
-  font-weight: 700;
-  font-size: 22px;
-  line-height: 26.4px;
-  padding: 48px 40px 34.4px;
-  text-decoration: underline;
-  text-transform: uppercase;
-  z-index: 2;
+	position: inherit;
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 26.4px;
+	padding: 48px 40px 34.4px;
+	text-decoration: underline;
+	text-transform: uppercase;
+	z-index: 2;
 }
 
 .card-text {
-  position: inherit;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 24px;
-  padding: 0 40px 48px;
-  z-index: 2;
+	position: inherit;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 24px;
+	padding: 0 40px 48px;
+	z-index: 2;
 }
-/* .Никак не получается поставить фоновую картинку по центру как в макете */
+
 .card_type_film {
-  background-image: url(..//images/card-lot-01.jpg);
+	background-image: url(..//images/card-lot-01.jpg);
 }
 
 .card_type_book {
-  background-image: url(..//images/card-lot-02.jpg);
+	background-image: url(..//images/card-lot-02.jpg);
 }
 
 .card_type_picture {
-  background-image: url(..//images/card-lot-03.jpg);
+	background-image: url(..//images/card-lot-03.jpg);
 }
 
 .lots__look-more-link {
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 23.48px;
-  padding-left: 40px;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 23.48px;
+	padding-left: 40px;
 }
 
 .about {
-  width: 1052px;
-  display: grid;
-  grid-template-columns: 334px auto;
-  margin: 0px 24px 0px;
+	width: 1052px;
+	display: grid;
+	grid-template-columns: 334px auto;
+	margin: 0px 24px 0px;
 }
 
 .about__logo {
-  padding-top: 35px;
-  padding-left: 47px;
+	padding-top: 35px;
+	padding-left: 47px;
 }
 
 .about__logo_background {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #000;
-  border-radius: 50%;
-  width: 240px;
-  height: 240px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #000;
+	border-radius: 50%;
+	width: 240px;
+	height: 240px;
 }
 
 .about__logo-images {
-  background-image: url(..//images/logo-white.svg);
-  width: 148px;
-  height: 114px;
+	background-image: url(..//images/logo-white.svg);
+	width: 148px;
+	height: 114px;
 }
 
 .about__auction {
-  width: 693px;
-  margin-top: 133px;
-  padding-left: 25px;
+	width: 693px;
+	margin-top: 133px;
+	padding-left: 25px;
 }
 
 .about__title {
-  padding-top: 3px;
-  padding-bottom: 100px;
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 46.96px;
-  text-transform: uppercase;
+	padding-top: 3px;
+	padding-bottom: 100px;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 46.96px;
+	text-transform: uppercase;
 }
 
 .about__text {
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 24px;
-  text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
-  padding: 0px 0px 24px 0px;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: left;
+	text-underline-position: from-font;
+	text-decoration-skip-ink: none;
+	padding: 0px 0px 24px 0px;
 }
 
 .footer {
-  margin-top: 156px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  align-content: center;
-  width: 1100px;
-  font-size: 18px;
-  justify-items: center;
-  align-items: start;
+	margin-top: 156px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	align-content: center;
+	width: 1100px;
+	font-size: 18px;
+	justify-items: center;
+	align-items: start;
 }
 
-.footer__contacts {
-  margin-left: 50px;
-  padding-bottom: 82px;
-  font-style: normal;
+.footer__address {
+	margin-left: 50px;
+	font-style: normal;
 }
 
 .footer__menu {
-  display: grid;
-  width: 163.9px;
-  justify-self: center;
-  margin: 1px 177.5px 115px 154.3px;
+	display: grid;
+	width: 163.9px;
+	justify-self: center;
+	margin: 1px 0px 115px 0px;
 }
 
 .footer__menu-list {
-  list-style-type: circle;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  justify-content: space-evenly;
-  list-style: none;
+	list-style-type: circle;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: space-evenly;
+	list-style: none;
 }
 
 .footer__social-list {
-  list-style: none;
-  width: 240px;
-  margin-right: 25px;
+	list-style: none;
+	width: 240px;
 }
 
 .footer__social-link {
-  text-decoration: none;
-  display: flex;
-  flex-direction: row;
-  text-align: start;
-  justify-content: space-between;
-  list-style: none;
+	text-decoration: none;
+	display: flex;
+	flex-direction: row;
+	text-align: start;
+	justify-content: space-between;
+	list-style: none;
 }
 
 .footer__social-icon {
-  width: 48px;
-  height: 48px;
+	width: 48px;
+	height: 48px;
 }
